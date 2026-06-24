@@ -11,7 +11,7 @@
       "url": "https://t.me/Yosf_Mobile"
     }
   ],
-  "apps": [
+  "apps": [esign
     {
       "name": "Test App",
       "bundleIdentifier": "com.test.app",
