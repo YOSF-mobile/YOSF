@@ -11,5 +11,16 @@
       "url": "https://t.me/Yosf_Mobile"
     }
   ],
-  "apps": []
+  "apps": [
+    {
+      "name": "Test App",
+      "bundleIdentifier": "com.test.app",
+      "version": "1.0",
+      "size": 0,
+      "downloadURL": "https://example.com/app.ipa",
+      "developerName": "Yosf",
+      "localizedDescription": "ئەڤە ئەپەکێ تاقیکرنێ یە.",
+      "iconURL": "https://i.imgur.com/vHqB4eT.png"
+    }
+  ]
 }
