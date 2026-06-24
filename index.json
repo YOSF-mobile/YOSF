@@ -2,21 +2,13 @@
   "name": "YosfMobile",
   "identifier": "com.yosf.mobile",
   "subtitle": "Yosf Mobile Repository",
-  "description": "باشترین ئەپلیکەیشن و یاری ب رێیا YosfMobile.",
+  "description": "Yosf Mobile Repository.",
   "tintColor": "#000000",
   "iconURL": "https://i.imgur.com/vHqB4eT.png",
   "links": [
     {
       "name": "Telegram",
       "url": "https://t.me/Yosf_Mobile"
-    },
-    {
-      "name": "TikTok",
-      "url": "https://www.tiktok.com/@il_capi_fx"
-    },
-    {
-      "name": "Snapchat",
-      "url": "https://snapchat.com/t/EE0C3XfE"
     }
   ],
   "apps": []
