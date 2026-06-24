@@ -12,23 +12,12 @@
     },
     {
       "name": "TikTok",
-      "url": "https://www.tiktok.com/@il_capi_fx?_r=1&_t=ZS-97UPSjJjQvt"
+      "url": "https://www.tiktok.com/@il_capi_fx"
     },
     {
       "name": "Snapchat",
       "url": "https://snapchat.com/t/EE0C3XfE"
     }
   ],
-  "apps": [
-    {
-      "name": "YosfMobile App",
-      "bundleIdentifier": "com.yosfmobile.app",
-      "version": "1.0.0",
-      "size": 0,
-      "downloadURL": "",
-      "developerName": "Yosf Mobile",
-      "localizedDescription": "ئەڤە ئەپلیکەیشنا سەرەکی یا YosfMobile.",
-      "iconURL": "https://i.imgur.com/vHqB4eT.png"
-    }
-  ]
+  "apps": []
 }
