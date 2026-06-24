@@ -1,0 +1,34 @@
+{
+  "name": "YosfMobile",
+  "identifier": "com.yosf.mobile",
+  "subtitle": "Yosf Mobile Repository",
+  "description": "باشترین ئەپلیکەیشن و یاری ب رێیا YosfMobile.",
+  "tintColor": "#000000",
+  "iconURL": "https://i.imgur.com/vHqB4eT.png",
+  "links": [
+    {
+      "name": "Telegram",
+      "url": "https://t.me/Yosf_Mobile"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@il_capi_fx?_r=1&_t=ZS-97UPSjJjQvt"
+    },
+    {
+      "name": "Snapchat",
+      "url": "https://snapchat.com/t/EE0C3XfE"
+    }
+  ],
+  "apps": [
+    {
+      "name": "YosfMobile App",
+      "bundleIdentifier": "com.yosfmobile.app",
+      "version": "1.0.0",
+      "size": 0,
+      "downloadURL": "",
+      "developerName": "Yosf Mobile",
+      "localizedDescription": "ئەڤە ئەپلیکەیشنا سەرەکی یا YosfMobile.",
+      "iconURL": "https://i.imgur.com/vHqB4eT.png"
+    }
+  ]
+}
