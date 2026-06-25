@@ -1,0 +1,7 @@
+{
+  "name": "YosfMobile",
+  "short_name": "Yosf",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [{ "src": "logo.png", "sizes": "512x512", "type": "image/png" }]
+}
