@@ -10,7 +10,7 @@ jobs:
       - name: Install XcodeGen
         run: brew install xcodegen
       - name: Generate Project
-        run: xcodegen generate --spec project.yml
+        run: xcodegen generate
       - name: Build App
         run: |
           xcodebuild clean build \
