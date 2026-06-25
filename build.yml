@@ -1,0 +1,34 @@
+name: Build YosfMobile IPA
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install XcodeGen
+        run: brew install xcodegen
+      - name: Generate Project
+        run: xcodegen generate
+      - name: Build App
+        run: |
+          xcodebuild clean build \
+          -project YosfMobile.xcodeproj \
+          -scheme YosfMobile \
+          -configuration Release \
+          -sdk iphoneos \
+          CODE_SIGNING_ALLOWED=NO \
+          CODE_SIGNING_REQUIRED=NO \
+          CODE_SIGNING_IDENTITY="" \
+          CONFIGURATION_BUILD_DIR=build
+      - name: Package IPA
+        run: |
+          mkdir -p Payload
+          cp -r build/YosfMobile.app Payload/
+          zip -r YosfMobile.ipa Payload
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: YosfMobile-IPA
+          path: YosfMobile.ipa

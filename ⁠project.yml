@@ -1,0 +1,26 @@
+name: YosfMobile
+options:
+  bundleIdPrefix: comYosfMobile
+targets:
+  YosfMobile:
+    type: application
+    platform: iOS
+    deploymentTarget: "14.0"
+    sources:
+      - YosfMobile.swift
+    resources:
+      - index.html
+      - css
+      - app
+      - logo.png
+    info:
+      path: Info.plist
+    settings:
+      CODE_SIGNING_REQUIRED: NO
+      CODE_SIGNING_ALLOWED: NO
+      PRODUCT_BUNDLE_IDENTIFIER: com.yosfmobile.app
+schemes:
+  YosfMobile:
+    build:
+      targets:
+        YosfMobile: all
